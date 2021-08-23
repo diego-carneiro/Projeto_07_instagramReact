@@ -1,6 +1,6 @@
 import TopoPagina from "./TopoPagina";
 import Stories from "./Stories";
-import Feed from "./Feed";
+import Feed_array from "./Feed_array";
 import Sidebar from "./Sidebar";
 
 export default function App(){
@@ -11,7 +11,7 @@ export default function App(){
             <div class="corpo">
                 <div class="esquerda">
                 <Stories />
-                <Feed />
+                <Feed_array />
             </div>
             <Sidebar />
             </div>
