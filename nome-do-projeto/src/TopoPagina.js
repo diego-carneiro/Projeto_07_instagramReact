@@ -19,6 +19,7 @@ export default function TopoDaPagina(){
  
          <div class="pesquisa">
            <input type="text" placeholder="Pesquisar" />
+           <p>AHUSAHSUASHU</p>
          </div>
  
          <div class="icones">
