@@ -1,24 +1,7 @@
 import ReactDOM from "react-dom";
-import Conteudo from "./Conteudo"
+import App from "./App"
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ReactDOM.render(<Conteudo />, document.querySelector(".root"))
+ReactDOM.render(<App />, document.querySelector(".root"))
 
 
