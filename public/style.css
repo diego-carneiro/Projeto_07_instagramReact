@@ -1,12 +1,292 @@
-* {
-  box-sizing: border-box;
+/*:::::Topo da Página:::::*/
+.barra-topo{
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+}
+.barra-vertical-topo{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.conteudo-barra-topo{
+    display: flex;
+    width: 880px;
+    justify-content: space-between;
+    align-items: center;
+}
+#minilogo{
+    margin-right: 11px;
+    font-size: 12px;
+}
+.logo-insta{
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+#espaço-pesquisa{
+    width: 215px;
+    height: 28px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+.icone-topo{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
 }
 
-body {
-  background-color: #FAFAFA;
-  margin: 54px 0 0;
-  font-family: 'Roboto', sans-serif;
-  color: #262626;
-  font-weight: 400;
-  font-size: 14px;
+/*:::::Topo da Página:::::*/
+/*:::::Conteúdo da Página:::::*/
+.corpo-pagina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FAFAFA;
+    width: 100%;
+}
+.box-lateral{
+    margin-top: 34px;
+}
+/*:::::Espaço de Story:::::*/
+.story-feed{
+    background-color: #FAFAFA;  
+}
+.story-box{
+    width: 614px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    margin: 34px 0 24px; 
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 12px;
+    position: relative;
+    z-index: 1;
+}
+.story-circle{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-left: 23px;
+    background-color: teal;
+
+    display: flex;
+    justify-content: center;
+}
+.story-img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+.story-circle{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.story-name{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 400;
+    color: #262626;
+}
+.iconeSeta{
+    color: red;
+    font-size: 26px;
+    z-index: 3;
+    margin-left: 10px;
+}
+/*:::::Espaço de Story:::::*/
+/*:::::Espaço de Posts do Feed:::::*/
+.post-box{
+    width: 614px;
+    height: 750px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.topo-post{
+    display: flex;
+    align-items: center;
+    width: 610px;
+    height: 60px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+.user-photo{
+    width: 32px;
+    height: 32px;
+    border-radius: 28px;
+    margin-left: 18px;   
+}
+.post-user{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.feed-picture{
+    width: 612px;
+    height: 612px;
+}
+#post-options{
+    display: flex;
+    margin-right: 18.5px; 
+}
+.icon-bar{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.like-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 28px;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+.post-insights{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*:::::Espaço de Posts do Feed END:::::*/
+/*:::::Sidebar :::::*/
+.sidebar{
+    padding-top: 24px;
+    width: 293px;
+    margin-left: 40px;
+}
+.usuario{
+    display: flex;
+    align-items: center;
+}
+.userIcon{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 14px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.sugestao{
+    display: flex;
+    justify-content: space-between;
+    height: 31px;
+    margin-bottom: 16px;
+}
+.sugestoesImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 28px;
+}
+.links {
+    font-size: 11px;
+    color: #C7C7C7;
+    margin-top: 40px;
+} 
+.copyright {
+    font-size: 11px;
+    color: #C7C7C7;
+    margin-top: 18px;
+}
+.seguir {
+    color: #139EF2;
+    font-weight: 500;
+} 
+.segueVoce{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8E8E8E;
+    margin-top: 4px;
+}
+.nome{
+   font-size: 14px;
+   font-weight: 500; 
+}
+.footer{
+    display: none;
+}
+/*:::::Sidebar END:::::*/
+/*:::::Conteúdo da Página:::::*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+strong{
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width: 935px){
+    
+    .box-lateral {
+        display: none;
+    }
+    .barra-topo{
+        padding: 0 22px;
+    }
+}
+@media (max-width: 614px) {
+
+    .barra-topo{
+        width: 100%;
+    }
+    .story-box{
+        width: 100%;
+    }
+    .corpo-pagina{
+        width: 100%;
+    }
+    .story-feed{
+        width: 100%;
+    }
+    .post-box{
+        width: 100%;
+    }
+    #espaço-pesquisa{
+        display: none;
+    }
+    #mobileDelete{
+        display: none;
+    }
+    .barra-vertical-topo{
+        display: none;
+    }
+    .feed-picture{
+        width: 100%;
+    }
+    .topo-post{
+        width: 100%;
+    }
+    .footer{
+        display: inherit;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
 }
